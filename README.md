@@ -1,32 +1,32 @@
 # DjangopRestApi
-###This is a simple task of Django Restapi. 
-###Mainly follow this tutorials: 
-###https://wsvincent.com/django-rest-framework-tutorial/
+### This is a simple task of Django Restapi. 
+### Mainly follow this tutorials: 
+### https://wsvincent.com/django-rest-framework-tutorial/
 
-###Environement set up.
-###As prerequisit of Django 2 version, We need python 3.5 .
-###Main machine: debian 9. 
+### Environement set up.
+### As prerequisit of Django 2 version, We need python 3.5 .
+###M ain machine: debian 9. 
 ######
-####install django in debian 9
- ###apt-get update && apt-get -y upgrade
- ###apt-get install python3
-###apt-get install -y python3-pip
+#### install django in debian 9
+ ### apt-get update && apt-get -y upgrade
+ ### apt-get install python3
+### apt-get install -y python3-pip
 # Create the project directory
- ###mkdir DjangoTest
-###cd DjangoTest#
+ ### mkdir DjangoTest
+### cd DjangoTest#
 # Create a virtualenv to isolate our package dependencies locally
-virtualenv env1
-source env1/bin/activate
+### virtualenv env1
+### source env1/bin/activate
 # Install Django and Django REST framework into the virtualenv
 
-pip3 install Django
-pip3 install djangorestframework
-#Set up a new project with a single application
-django-admin startproject Testapi .
-python manage.py startapp posts
+### pip3 install Django
+### pip3 install djangorestframework
+#  Set up a new project with a single application
+### django-admin startproject Testapi .
+### python manage.py startapp posts
 
 ############ project set up ###
-####Since we’ve added a new app we need to tell Django about it. So make sure to add posts to our list of INSTALLED_APPS in the settings.py file.
+#### Since we’ve added a new app we need to tell Django about it. So make sure to add posts to our list of INSTALLED_APPS in the settings.py file.
 
 # testapi/settings.py
 INSTALLED_APPS = [
