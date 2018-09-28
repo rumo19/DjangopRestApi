@@ -1,19 +1,19 @@
 # DjangopRestApi
-This is a simple task of Django Restapi. 
-Mainly follow this tutorials: 
-https://wsvincent.com/django-rest-framework-tutorial/
+###This is a simple task of Django Restapi. 
+###Mainly follow this tutorials: 
+###https://wsvincent.com/django-rest-framework-tutorial/
 
-Environement set up.
-As prerequisit of Django 2 version, We need python 3.5 .
-Main machine: debian 9. 
+###Environement set up.
+###As prerequisit of Django 2 version, We need python 3.5 .
+###Main machine: debian 9. 
 ######
 ####install django in debian 9
- apt-get update && apt-get -y upgrade
- apt-get install python3
-apt-get install -y python3-pip
+ ###apt-get update && apt-get -y upgrade
+ ###apt-get install python3
+###apt-get install -y python3-pip
 # Create the project directory
- mkdir DjangoTest
-cd DjangoTest#
+ ###mkdir DjangoTest
+###cd DjangoTest#
 # Create a virtualenv to isolate our package dependencies locally
 virtualenv env1
 source env1/bin/activate
